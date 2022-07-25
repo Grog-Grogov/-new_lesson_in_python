@@ -66,4 +66,4 @@ def generator_function():
 
 for three in generator_function():
 
-    print('элементы стоящие на позициях, не кратных 3 = ', three)
+    print('элементы стоящие на позициях не кратных 3 = ', three)
