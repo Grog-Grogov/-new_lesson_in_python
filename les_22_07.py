@@ -9,6 +9,8 @@ print('Список из чётных элементов', a)
 
 list_numbers_2 = [78, 99, 66, 44, 50, 50,  30, 45, 15, 15, 25, 20, 1, 233]
 element_count = ([item for item in list_numbers_2 if 10 <= item <= 99])
+print(list_numbers_2[0])
+
 print("элементы списка из двухзначных элементов:", element_count)
 
 #  Генераторы-функции
