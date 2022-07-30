@@ -1,6 +1,10 @@
-def my_fu_1(n):
-    for i in n:
-        print(i * 4)
-b = [2, 3, 4, 'qweerty,']
-asd = my_fu_1(b)
-print(asd)
+def my_fun(a):
+    l1 = []
+    for i in a:
+        l1.append(i * 5)
+    return l1
+b = [3, 5, 7, 'class - ']
+qwert = my_fun(b)
+print(qwert)
+
+
