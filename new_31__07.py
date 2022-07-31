@@ -5,7 +5,7 @@ def my_deco(sam_func):
         t = time.time()
         print('код до функции')
         sam_func(*args, **кwargs)
-        time.sleep(5) # задерка работы функции как пример
+        time.sleep(1) # задерка работы функции как пример
         print('время работы функции--', sam_func.__name__, time.time() - t) # время вычислениия работы функии
         print('Код после функции')
         return sam_func
@@ -32,3 +32,9 @@ func_3(2)
 
 t = time.time()
 print('время', t)
+
+lambada = list(map(lambda x: x * 2, range(6)))
+print(lambada)
+
+lambada_1 = list(filter(lambda x: x % 2==0, range(16)))
+print(lambada_1)
