@@ -26,16 +26,16 @@ def func_3(a):
 
 
 
-    list_prin(4, 6)
+list_prin(4, 6)
 func_2(4, 8)
 func_3(2)
 
 
 t = time.time()
-print('время', t)
+print('время в настоящий момент', t)
 
 lambada = list(map(lambda x: x * 2, range(6)))
 print(lambada)
 
 lambada_1 = list(filter(lambda x: x % 2==0, range(16)))
-print(lambada_1)
+print('чЁтные числа из списка', lambada_1)

@@ -76,12 +76,10 @@ b = [1, 2, 1, 2, 101, 7, 43, 9, 10, -1, 0]
 def my_fun_123(x, y):
     i = 0
     while i < len(x):
-        #print(i)
         for l in y:
-           #print(l)
-          if i == l:
-            x.remove(l)
-            i = i + 1
+            if l == x[i]:
+                x.remove(l)
+        i = i + 1
     print(x)
     print("=====================")
 
