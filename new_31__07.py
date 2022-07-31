@@ -25,7 +25,8 @@ def func_3(a):
     print('----',[4, 5, 6, 7, 8])
 
 
-list_prin(4, 6)
+
+    list_prin(4, 6)
 func_2(4, 8)
 func_3(2)
 
