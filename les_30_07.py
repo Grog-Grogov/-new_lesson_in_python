@@ -52,7 +52,8 @@ def my_fun_123(x, y):
          for l in y:
          #print(l)
             if i == l:
-                x.remove(l)
+                #x.remove(l)
+                a.remove(l)
                 print(x)
     print(x)
     print("=====================")
@@ -71,3 +72,16 @@ def my_dickttt():
     for i in my_dict:
        print(my_dict.values())
 
+#Для примера с двумя аргументами написать обычную функцию add.
+#️Написать анонимную функцию, которая получает 4 аргумента и складывает их между собой.
+
+def add(a, b):
+    print('Обычная функция - ', a + b)
+add(3, 8)
+
+asdaa = lambda  a, b, c, d: a + b + c + d
+#(lambda a,b,c,d: a, b, c, d)(2,3,5,7)
+print('lambda funcion -- сложение 4 аргументов',asdaa(2,3,4,5))
+
+lambda x: x + 1
+print(lambda x: x + 1)(2)
