@@ -55,7 +55,7 @@ def my_fun_123(x, y):
                 x.remove(l)
                 print(x)
     print(x)
-    print("=====================")
+    print("================++++++=====")
 
 
 my_fun_123(a, b)
@@ -71,3 +71,19 @@ def my_dickttt():
     for i in my_dict:
        print(my_dict.values())
 
+a = [1, 1, 2, 3, 5, 7, 8, 99, 101, 21, 3]
+b = [1, 2, 1, 2, 101, 7, 43, 9, 10, -1, 0]
+def my_fun_123(x, y):
+    i = 0
+    while i < len(x):
+        #print(i)
+        for l in y:
+           #print(l)
+          if i == l:
+            x.remove(l)
+            i = i + 1
+    print(x)
+    print("=====================")
+
+
+my_fun_123(a, b)
